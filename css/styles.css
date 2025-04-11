@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem;
+    border-bottom: 1px solid #ccc;
+}
+header .nav-left {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+header nav a {
+    margin-left: 2rem;
+    text-decoration: none;
+    color: #000;
+}
+.hero {
+    position: relative;
+    text-align: center;
+}
+.hero img {
+    width: 80%;      
+    height: 500px;    
+    object-fit: cover; 
+}
+.view-menu {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #3d5b3f;
+    color: white;
+    border: none;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+}
+.welcome {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.welcome h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.welcome-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 2rem;
+    flex-wrap: wrap;
+}
+.menu-section {
+    padding: 4rem 2rem;
+    background-color: #f8f9fa;
+}
+.menu-banner {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+.menu-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.card {
+    flex: 1 1 30%;
+    padding: 1rem;
+    text-align: center;
+}
+.card button {
+    background-color: #3d5b3f;
+    color: white;
+    border: none;
+    padding: 0.5rem 1.5rem;
+}
+.commitment {
+    padding: 4rem 2rem;
+    text-align: center;
+}
+.commitment-img {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 2rem;
+}
+.footer-section {
+    margin-bottom: 1rem;
+}
+.footer-bottom {
+    text-align: center;
+    font-size: 0.85rem;
+    margin-top: 1rem;
+}
